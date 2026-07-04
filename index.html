@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sterrenkijken Alphen</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- astronomy-engine: berekent planeet/maanposities lokaal in de browser (geen API-sleutel) -->
+  <script src="https://cdn.jsdelivr.net/npm/astronomy-engine@2.1.19/astronomy.browser.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">&#9733;</span>
+      <div>
+        <h1>Sterrenkijken Alphen</h1>
+        <p class="subtitle">Alphen, Gelderland (NL) &middot; 51,846&deg;N, 5,491&deg;O</p>
+      </div>
+    </div>
+    <div class="controls">
+      <label for="datePicker">Nacht van</label>
+      <input type="date" id="datePicker" />
+      <button id="todayBtn" type="button" title="Naar vanavond springen">Vanavond</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel summary" id="summaryPanel">
+      <div class="loader" id="summaryLoader">Laden...</div>
+    </section>
+
+    <section class="panel weather" id="weatherPanel" aria-label="Weer en sterrenkijkscore">
+      <div class="loader" id="weatherLoader">Weer laden...</div>
+    </section>
+
+    <section class="panel objects" id="objectsPanel" aria-label="Zichtbare sterrenkijkobjecten">
+      <div class="loader" id="objectsLoader">Zichtbare objecten berekenen...</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Posities lokaal berekend met
+      <a href="https://github.com/cosinekitty/astronomy" target="_blank" rel="noopener">astronomy-engine</a>.
+      Weer via
+      <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>.
+    </p>
+  </footer>
+
+  <script src="js/catalog.js"></script>
+  <script src="js/scoring.js"></script>
+  <script src="js/visibility.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
