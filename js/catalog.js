@@ -363,6 +363,215 @@
         "iets dichter bij Cor Caroli. Een verrekijker toont een ronde, heldere gloed; een " +
         "telescoop lost een prachtige, dichte zwerm sterren op, een van de mooiste bolhopen " +
         "van het voorjaar."
+    },
+
+    // --- Sterrenbeelden (gebruik centroid RA/Dec voor zichtbaarheid) ----------
+    {
+      id: "con_orion", name: "Orion", designation: "Orion",
+      type: "Sterrenbeeld", mag: 0.1, ra: 5.5, dec: 0, gear: "Blote oog",
+      link: W + "Orion_(sterrenbeeld)",
+      howToFind:
+        "Herkenbaar aan drie gordelsterren (Alnitak, Alnilam, Mintaka) op een rij, in het " +
+        "midden van een grote zandlopervorm. Linksboven staat de rode Betelgeuze, rechtsonder " +
+        "de blauwwitte Rigel. Een van de meest herkenbare sterrenbeelden aan de winterhemel."
+    },
+    {
+      id: "con_ursa_major", name: "Grote Beer", designation: "Ursa Major",
+      type: "Sterrenbeeld", mag: 1.8, ra: 11.0, dec: 53, gear: "Blote oog",
+      link: W + "Grote_Beer",
+      howToFind:
+        "Zoek naar zeven heldere sterren die samen de 'Steelpan' vormen, hoog in het noorden. " +
+        "De twee sterren aan het uiteinde van de kom (Dubhe en Merak) wijzen naar de Poolster. " +
+        "Circumpolair, dus het hele jaar door zichtbaar vanuit Nederland."
+    },
+    {
+      id: "con_ursa_minor", name: "Kleine Beer", designation: "Ursa Minor",
+      type: "Sterrenbeeld", mag: 2.0, ra: 15.0, dec: 78, gear: "Blote oog",
+      link: W + "Kleine_Beer",
+      howToFind:
+        "Een klein, flauw sterrenbeeld dat de 'Kleine Steelpan' vormt, met de Poolster " +
+        "(Polaris) aan het uiteinde van de steel. Vanuit Nederland staat Polaris altijd pal " +
+        "noord, ongeveer 52 graden boven de horizon. Circumpolair, maar de meeste sterren " +
+        "zijn flauw."
+    },
+    {
+      id: "con_cassiopeia", name: "Cassiopeia", designation: "Cassiopeia",
+      type: "Sterrenbeeld", mag: 2.2, ra: 0.7, dec: 60, gear: "Blote oog",
+      link: W + "Cassiopeia_(sterrenbeeld)",
+      howToFind:
+        "Een opvallende W-vorm (of M-vorm, afhankelijk van de stand) van vijf heldere sterren, " +
+        "tegenover de Grote Beer aan de noorderhemel. Circumpolair vanuit Nederland. Makkelijk " +
+        "te herkennen aan de kenmerkende zigzag-vorm."
+    },
+    {
+      id: "con_cygnus", name: "Zwaan", designation: "Cygnus",
+      type: "Sterrenbeeld", mag: 1.3, ra: 20.5, dec: 40, gear: "Blote oog",
+      link: W + "Zwaan_(sterrenbeeld)",
+      howToFind:
+        "Een groot kruisvormig patroon, ook wel het 'Noorderkruis' genoemd, hoog in de " +
+        "zomerhemel. Deneb markeert de staart en Albireo de snavel. De Zwaan vliegt langs de " +
+        "Melkweg, waardoor het gebied er bijzonder rijk aan sterren is."
+    },
+    {
+      id: "con_lyra", name: "Lier", designation: "Lyra",
+      type: "Sterrenbeeld", mag: 0.0, ra: 18.8, dec: 38, gear: "Blote oog",
+      link: W + "Lier_(sterrenbeeld)",
+      howToFind:
+        "Een klein, compact sterrenbeeld met de schitterende blauwwitte ster Vega als meest " +
+        "opvallende ster. De andere sterren vormen een kleine parallelogram onder Vega. Vega " +
+        "is een van de drie hoekpunten van de Zomerdriehoek."
+    },
+    {
+      id: "con_bootes", name: "Ossenhoeder", designation: "Bo\u00f6tes",
+      type: "Sterrenbeeld", mag: -0.1, ra: 14.5, dec: 30, gear: "Blote oog",
+      link: W + "Ossenhoeder",
+      howToFind:
+        "Volg de boog van de steel van de Steelpan naar het zuiden: 'boog naar Arcturus'. " +
+        "Arcturus is een intense oranje ster, de helderste ster aan de noordelijke hemel. De " +
+        "resterende sterren vormen een vlieger- of ijsje-vorm boven Arcturus."
+    },
+    {
+      id: "con_leo", name: "Leeuw", designation: "Leo",
+      type: "Sterrenbeeld", mag: 1.4, ra: 10.5, dec: 15, gear: "Blote oog",
+      link: W + "Leeuw_(sterrenbeeld)",
+      howToFind:
+        "Zoek naar een achterwaartse vraagteken (de 'sikkel') bovenaan, met Regulus als " +
+        "helderste ster aan de basis. Links hiervan vormen drie sterren een rechthoek als het " +
+        "achterlijf van de leeuw. Een groot, herkenbaar sterrenbeeld aan de voorjaarshemel."
+    },
+    {
+      id: "con_taurus", name: "Stier", designation: "Taurus",
+      type: "Sterrenbeeld", mag: 0.9, ra: 4.5, dec: 18, gear: "Blote oog",
+      link: W + "Stier_(sterrenbeeld)",
+      howToFind:
+        "Een V-vormige groep sterren (de Hyaden) met de oranje Aldebaran als het 'oog' van de " +
+        "stier. Boven de V staan de Pleiaden (Zevengesternte), een glinsterend groepje sterren. " +
+        "De twee horens reiken naar het noorden."
+    },
+    {
+      id: "con_gemini", name: "Tweeling", designation: "Gemini",
+      type: "Sterrenbeeld", mag: 1.1, ra: 7.0, dec: 22, gear: "Blote oog",
+      link: W + "Gemini_(sterrenbeeld)",
+      howToFind:
+        "Twee parallelle rijen sterren die de tweeling Castor (witter, noord) en Pollux " +
+        "(oranjer, zuid) voorstellen, met hun hoofden links en hun lichamen naar rechts " +
+        "(west) uitlopend. Een helder sterrenbeeld ten noordoosten van Orion."
+    },
+    {
+      id: "con_auriga", name: "Voerman", designation: "Auriga",
+      type: "Sterrenbeeld", mag: 0.1, ra: 5.6, dec: 40, gear: "Blote oog",
+      link: W + "Voerman_(sterrenbeeld)",
+      howToFind:
+        "Een opvallende vijfhoek van sterren met de goudgele Capella als helderste ster, hoog " +
+        "in de winterhemel. De vijfhoek staat ten noorden van de stier (Taurus)."
+    },
+    {
+      id: "con_andromeda", name: "Andromeda", designation: "Andromeda",
+      type: "Sterrenbeeld", mag: 2.1, ra: 1.0, dec: 35, gear: "Blote oog",
+      link: W + "Andromeda_(sterrenbeeld)",
+      howToFind:
+        "Twee gebogen rijen sterren die vanuit het Grote Vierkant van Pegasus naar het " +
+        "noordoosten lopen. Het sterrenbeeld bevat de Andromedanevel (M31), die met het blote " +
+        "oog te zien is op een donkere nacht."
+    },
+    {
+      id: "con_pegasus", name: "Pegasus", designation: "Pegasus",
+      type: "Sterrenbeeld", mag: 2.4, ra: 22.5, dec: 20, gear: "Blote oog",
+      link: W + "Pegasus_(sterrenbeeld)",
+      howToFind:
+        "Het 'Grote Vierkant' van vier sterren is een markant herkenningspunt aan de " +
+        "herfsthemel. Het vierkant stelt het lichaam van het gevleugelde paard voor. De " +
+        "sterren lopen vanuit het vierkant uit naar Andromeda in het noordoosten."
+    },
+    {
+      id: "con_perseus", name: "Perseus", designation: "Perseus",
+      type: "Sterrenbeeld", mag: 1.8, ra: 3.5, dec: 45, gear: "Blote oog",
+      link: W + "Perseus_(sterrenbeeld)",
+      howToFind:
+        "Een gebogen lijn van sterren tussen de Pleiaden (ten westen) en Capella (ten oosten). " +
+        "De helderste ster Mirfak markeert een kleine groep. Algol, de 'Demonster', is een " +
+        "bekende veranderlijke ster in dit sterrenbeeld."
+    },
+    {
+      id: "con_scorpius", name: "Schorpioen", designation: "Scorpius",
+      type: "Sterrenbeeld", mag: 1.1, ra: 16.5, dec: -30, gear: "Blote oog",
+      link: W + "Schorpioen_(sterrenbeeld)",
+      howToFind:
+        "Een langgerekt S-vormig patroon met de rode Antares als het 'hart', laag aan de " +
+        "zuidelijke zomerhemel. De staart buigt omlaag als een schorpioenenstaart. Vanuit " +
+        "Nederland is alleen het bovenste deel boven de horizon te zien."
+    },
+    {
+      id: "con_sagittarius", name: "Boogschutter", designation: "Sagittarius",
+      type: "Sterrenbeeld", mag: 1.9, ra: 18.5, dec: -25, gear: "Blote oog",
+      link: W + "Boogschutter",
+      howToFind:
+        "Een theepotvormig patroon van sterren laag in het zuiden in de zomer. De 'tuit' en " +
+        "het 'handvat' wijzen naar het centrum van de Melkweg. Een zeer rijk gebied met veel " +
+        "nevels en sterrenhopen (M8, M22)."
+    },
+    {
+      id: "con_hercules", name: "Hercules", designation: "Hercules",
+      type: "Sterrenbeeld", mag: 3.5, ra: 17.0, dec: 25, gear: "Blote oog",
+      link: W + "Hercules_(sterrenbeeld)",
+      howToFind:
+        "Een groot maar flauw sterrenbeeld in de zomerhemel, herkenbaar aan de 'Sleutelsteen' " +
+        "- een vierhoek van vier sterren in het midden. De Sleutelsteen huisvest de " +
+        "Herculesbolhoop (M13), een van de mooiste bolhopen."
+    },
+    {
+      id: "con_aquila", name: "Arend", designation: "Aquila",
+      type: "Sterrenbeeld", mag: 0.8, ra: 19.5, dec: 5, gear: "Blote oog",
+      link: W + "Arend_(sterrenbeeld)",
+      howToFind:
+        "Een lijn van sterren die langs de Melkweg loopt, met de heldere Altair als meest " +
+        "opvallende ster. Altair is het zuidelijke hoekpunt van de Zomerdriehoek. Twee flauwere " +
+        "sterren (Tarazed en Alshain) flankeren Altair op een lijn."
+    },
+    {
+      id: "con_canis_major", name: "Grote Hond", designation: "Canis Major",
+      type: "Sterrenbeeld", mag: -1.5, ra: 6.5, dec: -20, gear: "Blote oog",
+      link: W + "Grote_Hond",
+      howToFind:
+        "Volg de gordel van Orion naar beneden en naar het zuidoosten om de schitterende " +
+        "Sirius te vinden - de helderste ster aan de nachtelijke hemel. Vanuit Nederland is " +
+        "alleen het bovenste deel van de Hond zichtbaar, laag in het zuiden."
+    },
+    {
+      id: "con_canis_minor", name: "Kleine Hond", designation: "Canis Minor",
+      type: "Sterrenbeeld", mag: 0.3, ra: 7.5, dec: 7, gear: "Blote oog",
+      link: W + "Kleine_Hond",
+      howToFind:
+        "Een klein sterrenbeeld met slechts twee opvallende sterren, waarvan Procyon de " +
+        "helderste is. Procyon staat ten noorden van Sirius en vormt samen met Betelgeuze en " +
+        "Sirius de Winterdriehoek."
+    },
+    {
+      id: "con_virgo", name: "Maagd", designation: "Virgo",
+      type: "Sterrenbeeld", mag: 1.0, ra: 13.5, dec: -5, gear: "Blote oog",
+      link: W + "Maagd_(sterrenbeeld)",
+      howToFind:
+        "Een groot maar flauw sterrenbeeld met Spica als helderste ster. Volg de boog van " +
+        "de Steelpan-steel voorbij Arcturus omlaag naar Spica. Spica is een blauwwitte ster " +
+        "laag in het zuiden in het voorjaar."
+    },
+    {
+      id: "con_cepheus", name: "Cepheus", designation: "Cepheus",
+      type: "Sterrenbeeld", mag: 2.5, ra: 22.0, dec: 70, gear: "Blote oog",
+      link: W + "Cepheus_(sterrenbeeld)",
+      howToFind:
+        "Een klein, flauw sterrenbeeld in de buurt van Cassiopeia, dat op een huis met schuin " +
+        "dak lijkt. Circumpolair vanuit Nederland. Minder opvallend dan de meeste andere " +
+        "sterrenbeelden, maar de helderste ster Alderamin markeert het puntje van het dak."
+    },
+    {
+      id: "con_draco", name: "Draak", designation: "Draco",
+      type: "Sterrenbeeld", mag: 2.2, ra: 17.0, dec: 60, gear: "Blote oog",
+      link: W + "Draak_(sterrenbeeld)",
+      howToFind:
+        "Een langgerekte, kronkelende keten van sterren die zich slingert tussen de Grote en " +
+        "Kleine Beer. Vanuit Nederland circumpolair. De 'kop' van de Draak bevindt zich nabij " +
+        "Vega. Het sterrenbeeld is groot maar de meeste sterren zijn flauw."
     }
   ];
 
@@ -439,7 +648,7 @@
     }
   ];
 
-  const TYPES = ["Alle", "Ster", "Planeet", "Sterrenstelsel", "Nevel", "Open sterrenhoop", "Bolvormige sterrenhoop", "Planetaire nevel", "Dubbelster"];
+  const TYPES = ["Alle", "Ster", "Planeet", "Sterrenbeeld", "Sterrenstelsel", "Nevel", "Open sterrenhoop", "Bolvormige sterrenhoop", "Planetaire nevel", "Dubbelster"];
 
   global.Catalog = { OBJECTS: OBJECTS, PLANETS: PLANETS, TYPES: TYPES };
 })(window);
